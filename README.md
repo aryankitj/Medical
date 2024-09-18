@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 
 3. Open index.html in your preferred web browser.
 
-##Usage
+## Usage
 
 * Navigate through the website to explore various services and products.
 * Use the contact form to get in touch with us for any inquiries or appointments.
