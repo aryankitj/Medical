@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    background-image: linear-gradient(135deg, #10191f 40%, #3c201f 50%);
+    color: white;
+}
+
+header {
+    background-color: #15131a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('medical-hero.jpg') no-repeat center center/cover;
+    /* color:black; */
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+.mission{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.values{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mission, .values, .team {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mission h2, .values h2, .team h2 {
+    margin-bottom: 20px;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    /* border: 3px solid #6d0808; */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    background-color: rgb(23, 12, 12);
+}
+
+.team-member img {
+    max-width: 50%;
+    height: auto;
+    border-bottom: 3px solid #b10808;
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    background-color: #0c0b18;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+
